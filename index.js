@@ -12,6 +12,7 @@ function getRandomColor(){
 }
         changeColorBtn.addEventListener("click", function(){
             colorBox.style.backgroundColor =getRandomColor();
+            colorBox.innerHTML =getRandomColor();
         })
     
 })
